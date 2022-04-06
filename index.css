@@ -33,11 +33,6 @@
   -webkit-appearance: none;
 }
 
-.oil-number-input:focus {
-  border-color: #777;
-  outline: 0;
-}
-
 .checkbox-wrap {
   background-color: #000000;
   padding: 0 10px;
@@ -118,6 +113,23 @@
 .arrow {
   pointer-events: none;
 }
+.filter-bar {
+  border-radius: 0;
+  padding: 1px 10px;
+  width: 100%;
+  height: 50px;
+  font-size: inherit;
+  box-sizing: border-box;
+  background: transparent;
+  background-color: #1e2124;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+
+.filter-bar::placeholder {
+  font-style: italic;
+}
+
 .toggle-content {
   overflow-x: auto;
 }
@@ -176,6 +188,7 @@ body {
   margin: auto;
   max-width: 1000px;
   padding: 10px;
+  padding-top: 20px;
   background-color: rgba(20, 20, 20, 0.8);
 }
 
@@ -205,5 +218,10 @@ button:active {
   cursor: pointer;
   color: #1d1d1d;
   background-color: #0f304d;
+}
+
+input:focus {
+  border-color: #777;
+  outline: 0;
 }
 
