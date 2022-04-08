@@ -1,0 +1,43 @@
+.toggle-content {
+  overflow-x: auto;
+}
+
+table, td {
+  border: 1px solid #B4A5A5;
+  border-collapse: collapse;
+}
+
+table {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #301B3F;
+}
+
+thead {
+  background-color: #1d052c;
+}
+thead > tr > td {
+  color: #fff1f1;
+  font-style: italic;
+}
+
+td {
+  padding: 0.2em 0.4em;
+}
+
+.table-cell-oil {
+  color: #e2e2e2;
+}
+
+.table-cell-name {
+  font-weight: bold;
+  color: #e7e0e0;
+}
+
+.table-cell-description {
+  color: #B4A5A5;
+}
+
+.table-row-even {
+  background-color: #3C415C;
+}

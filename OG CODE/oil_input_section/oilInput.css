@@ -1,0 +1,34 @@
+.oil-input-container {
+  text-align: center;
+  background-color: #000000;
+}
+
+.oil-input-wrap {
+  display: inline-block;
+  margin: 10px;
+  width: 210px;
+  height: 70px;
+  background-color: rgba(45, 49, 54, 0.3);
+  border-left: 1px solid #634928;
+}
+
+.oil-name {
+  margin: 0;
+}
+
+.oil-number-input {
+  margin-top: 5px;
+  font-size: 1em;
+  max-width: 180px;
+  text-align: center;
+  background: #1e2124;
+  color: #ffffff;
+  border: 1px solid #000000;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.oil-number-input::-webkit-outer-spin-button,
+.oil-number-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

@@ -1,0 +1,30 @@
+.expand-section-wrap {
+  background-color: #000000;
+  padding: 0 10px;
+  display: block;
+}
+
+.toggle {
+  display: block;
+  margin-bottom: 3px;
+  padding: 10px 0;
+  user-select: none;
+  text-decoration: none;
+  border-bottom: 1px solid #465260;
+}
+
+.toggle:last-of-type {
+  margin-bottom: 0;
+}
+
+.toggle:hover {
+  cursor: pointer;
+}
+
+.toggle-content {
+  margin-top: 10px;
+}
+
+.arrow {
+  pointer-events: none;
+}

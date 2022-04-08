@@ -1,0 +1,59 @@
+@import url('../oil_input_section/oilInput.css');
+@import url('../checkbox_section/checkbox.css');
+@import url('../buttons/btnCalculate.css');
+@import url('../buttons/btnScrollUp.css');
+@import url('../error_section/error.css');
+@import url('../expand_section/expandSection.css');
+@import url('../expand_section/filterBar.css');
+@import url('../expand_section/table.css');
+
+body {
+  font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans;
+  font-size: 1.3em;
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
+  color: #ffffff;
+  background: url("../images/main-background.jpg") center top / contain no-repeat fixed black;
+}
+
+#main {
+  margin: auto;
+  max-width: 1000px;
+  padding: 10px;
+  padding-top: 20px;
+  background-color: rgba(20, 20, 20, 0.8);
+}
+
+.section {
+  margin: 10px 0;
+  height: auto;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  text-decoration: none;
+  border: 2px solid #000000;
+  background-color: #0f304d;
+  border-color: #4c4c7d;
+  color: #e2e2e2;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #133d62;
+}
+
+button:active {
+  cursor: pointer;
+  color: #1d1d1d;
+  background-color: #0f304d;
+}
+
+input:focus {
+  border-color: #777;
+  outline: 0;
+}

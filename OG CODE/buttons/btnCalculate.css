@@ -1,0 +1,14 @@
+#btn-calculate {
+  display: block;
+  font-size: 1.3em;
+  margin: 10px auto;
+  width: 50%;
+  min-width: auto;
+  padding: 10px;
+
+}
+
+#btn-calculate:disabled {
+  pointer-events: none;
+  background-color: grey;
+}

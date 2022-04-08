@@ -1,0 +1,22 @@
+.checkbox-wrap {
+  background-color: #000000;
+  padding: 0 10px;
+}
+
+.checkbox-group {
+  border-bottom: 1px solid #465260;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 3px;
+}
+
+.checkbox-group > input:hover {
+  cursor: pointer;
+}
+
+.checkbox-group > label {
+  padding: 10px 0;
+  color: #ffffff;
+}
